@@ -28,8 +28,31 @@ else{
 <div class="container">
     <div class="flex text-end">
         <form method="POST">
-            <button type="submit" name="logout"  class="btn btn-outline-none fa-solid fa-right-from-bracket fs-1"></button>
-        </form>
+
+
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn  btn btn-outline-none fa-solid fa-right-from-bracket fs-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header ">
+        <h5 class="modal-title" id="exampleModalLabel">Are you sure ?</h5>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+        <button type="submit" class="btn btn-primary" name="logout" >Yes</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </form>
     </div>
 
     <div class="row justify-content-around p-0 m-0">
